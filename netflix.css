@@ -1,0 +1,89 @@
+.bimg{
+    background-image: url(./background.jpeg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.background{
+    position: absolute;
+    top: -50px;
+    left: -10px;
+    width: 900px;
+    height: 1100px;
+    background: rgba(5, 5, 21, 0.5);
+}
+.intro{
+ color: white;
+ padding: 40px;
+    text-align: left;
+    position: absolute;
+    top: 130px;
+    right: 540px;
+    font-weight: bold;
+    
+    
+}
+   
+    
+
+
+.text{
+    line-height: 0.9;
+    padding: 40px;
+    text-align: left;
+    position: absolute;
+    top: 215px;
+    right: 630px;
+
+    color: white;
+}
+.aa{
+    color: white;
+ padding: 40px;
+    text-align: left;
+    position: absolute;
+    top: 240px;
+    right: 410px;
+    white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+        
+
+}
+.btn{
+   position: absolute;
+   right: 100px;
+   background-color: red;
+   color: white;
+z-index: 999;
+}
+.email{
+     position: relative;
+     top: 270px;
+     left: 30px;
+    flex: 1;
+    border: 0;
+    outline: none;
+    
+}
+.get{
+    position: absolute;
+    top: 270px;
+    left: 200px;
+    background-color: red;
+    color: white;
+    z-index: 999;
+}
+.eng{
+    cursor: pointer;
+        border: 1px solid #3498db;
+        background-color: transparent;
+        height: 20px;
+        width: 50px;
+        color: #d5eaf7;
+        font-size: 10px;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        position: absolute;
+        right: 160px;
+        z-index: 999;
+}
